@@ -4,3 +4,5 @@ plugins:
    - jekyll-redirect-from
    - jekyll-sitemap
    - jekyll-feed
+
+theme: jekyll-theme-minimal
