@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "Program games with Rust and Amethyst"
+date:   2018-12-31 07:36:45 +0200
+categories: rust amethyst game development
+---
+
+I love Rust!  It is fast, flexible and the compiler is always telling me what
+I'm doing wrong.  Once my code compiles, it actually works (mostly).
+
+Recently, I stubled over the Amethyst engine.  It's an ECS engine which is written
+completely in Rust.
+
+# What is ECS?
+It means Entity Component System.  You basically have a World where you can add
+Entities.  To the Entities, you can assign Components which could be a screen position,
+a bounding rect, an image to draw, etc.  Finally Systems will iterate over all
+entities which have specific components assigned and can modify them.
+
+For example, one could build a MoveSystem which iterates over all Entities which have
+a SpeedComponent and a ScreenPositionComponent assigned and modify the
+ScreenPositionComponent based on the SpeedComponent.
+
+With this, all data (= Component) is encapsulated from the the logic (= System).
+And the ability to add several Systems to the engine allows to only take care of one
+specific task in each system.  For example, there can be single systems for user input,
+movement, sword attack, animations, audio, etc.
+
+
+
+
