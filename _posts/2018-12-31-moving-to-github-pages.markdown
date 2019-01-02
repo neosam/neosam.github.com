@@ -2,7 +2,7 @@
 layout: post
 title:  "Moving to Github Pages"
 date:   2018-12-31 17:20:45 +0200
-categories: github pages
+tags: [github pages, dat, beaker]
 ---
 
 Since I'm not sure about the privacy concerns of GDPR with the dat protocol,
