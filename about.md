@@ -4,9 +4,19 @@ title: About
 permalink: /about/
 ---
 
+<div style="float: right; display: block; padding: 1em; background-color: #CCC; ">
+<img src="/assets/neosam_sm.jpg" width="100" height="auto" alt="me"/>
+</div>
+
+# About neosam
+I'm a software developer living in Munich. Like many other developers in my generation,
+I started with QBasic as a child and continued learning Delphi and finally C and C++.
+During my time as student and I started to learn Java and use it until now.  My current
+favourite in my own time is Rust.
+
 # About the blog
 
-I put in some random data in here.
+This blog will mainly contain development updates and capture things I'm working on.
 
 
 # About the theme
