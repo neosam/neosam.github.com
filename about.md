@@ -11,12 +11,13 @@ permalink: /about/
 # About neosam
 I'm a software developer living in Munich. Like many other developers in my generation,
 I started with QBasic as a child and continued learning Delphi and finally C and C++.
-During my time as student and I started to learn Java and use it until now.  My current
-favourite in my own time is Rust.
+During my time as a student I started to code in Java.  In my own time I prefer more
+interesting languages like Rust or Haskell.
 
 # About the blog
 
 This blog will mainly contain development updates and capture things I'm working on.
+Hopefully I will fill this quickly created about page with more valuable content :).
 
 
 # About the theme
